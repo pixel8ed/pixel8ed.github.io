@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server error</title>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background-color: #F9F8F7;
+      background-image: url('https://assets.wealthsimple.com/images/spinner.png');
+      background-size: 25vw auto;
+      background-repeat: no-repeat;
+      background-position: 10vw center;
+      display: flex;
+      align-items: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .offline-container {
+      max-width: 540px;
+      padding-left: 35vw;
+    }
+
+    h1, h2 {
+      line-height: 1.4em;
+      font-weight: 300;
+    }
+
+    h1 {
+      font-family: "FuturaBT-Heavy", sans-serif;
+      font-size: 36px;
+    }
+
+    h2 {
+      font-family: "FuturaBT-Book", sans-serif;
+      font-size: 18px;
+    }
+
+    @font-face {
+      font-family: 'FuturaBT-Book';
+      src: url('https://assets.wealthsimple.com/fonts/FuturaBT-Book.eot');
+      src:
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Book.woff') format('woff'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Book.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'FuturaBT-Heavy';
+      src: url('https://assets.wealthsimple.com/fonts/FuturaBT-Heavy.eot');
+      src:
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Heavy.woff2') format('woff2'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Heavy.woff') format('woff'),
+        url('https://assets.wealthsimple.com/fonts/FuturaBT-Heavy.ttf') format('truetype');
+    }
+
+    @media only screen and (min-width: 1920px) {
+      body {
+        background-position: 20vw center;
+      }
+
+      .offline-container {
+        padding-left: 45vw;
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      body {
+        display: block;
+        background-position: center 50px;
+        background-size: auto 150px;
+        padding: 225px 20px 0 20px;
+      }
+
+      .offline-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <h1>Server error.</h1>
+    <h2>We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.</h2>
+    <p hidden>::CLOUDFLARE_ERROR_500S_BOX::</p>
+  </div>
+</body>
+</html>
